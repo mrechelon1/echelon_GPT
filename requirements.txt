@@ -1,0 +1,5 @@
+streamlit
+openai
+langchain
+python 3.10
+OpenAI_API
