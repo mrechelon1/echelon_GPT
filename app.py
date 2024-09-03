@@ -1,5 +1,3 @@
-
-
 # Importing the necessary modules from the Streamlit and LangChain packages
 import streamlit as st
 from langchain_community.llms import OpenAI
@@ -7,7 +5,7 @@ import random
 
 placeholders = ["Ask any question", "Type your message", "Say something", "What's on your mind?"]
 # Setting the title of the Streamlit application
-st.title('Clever GPT App')
+st.title('Clever ChatGPT')
 
 # Creating a sidebar input widget for the OpenAI API key, input type is password for security
 openai_api_key = st.sidebar.text_input('OpenAI API Key', type='password')
