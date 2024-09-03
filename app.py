@@ -2,7 +2,7 @@
 
 # Importing the necessary modules from the Streamlit and LangChain packages
 import streamlit as st
-from langchain.llms import OpenAI
+from langchain_community.llms import OpenAI
 import random
 
 placeholders = ["Ask any question", "Type your message", "Say something", "What's on your mind?"]
