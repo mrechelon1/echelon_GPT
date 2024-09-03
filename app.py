@@ -2,7 +2,8 @@
 
 # Importing the necessary modules from the Streamlit and LangChain packages
 import streamlit as st
-from langchain.llms import OpenAI
+#from langchain.llms import OpenAI
+from langchain_community import llms
 #from langchain_community.llms import OpenAI
 import random
 
